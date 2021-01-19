@@ -10,7 +10,7 @@ using std::cout;
 
 class Point : public Shape{
     public:
-        Point(int=0);
+        Point(int = 0);
 
         void setPoint(int);
 

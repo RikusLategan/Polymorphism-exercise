@@ -1,6 +1,6 @@
 #include "point1.h"
 
-Point::Point(int a){setPoint(a);}
+Point::Point(int a) : x(a) {setPoint(a);}
 
 void Point::setPoint(int a){x=a;}
 
