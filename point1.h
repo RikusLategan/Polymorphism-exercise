@@ -10,16 +10,16 @@ using std::cout;
 
 class Point : public Shape{
     public:
-        Point(int = 0);
+        Point(int x=0,int y=0);
 
-        void setPoint(int);
+        void setPoint(int,int);
 
-        virtual void printShapeName() const {cout << "Point: ";}
+        //virtual void printShapeName() const {cout << "Point: " << x << ", "<< y;}
         virtual void print() const;
         //virtual void printDetails() const;
 
     private:
-        int x;
+        int x,y;
 };
 
 #endif
